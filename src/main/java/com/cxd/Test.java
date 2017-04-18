@@ -32,6 +32,7 @@ import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
  * Created by cai x d
  * on2017/4/14 0014.
  */
+
 public class Test {
 
     private static Client client = Connect.getConnect();
@@ -197,7 +198,9 @@ public class Test {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
+
 
     /**
      * 查询整张表
